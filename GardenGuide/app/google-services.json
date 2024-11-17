@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "237980696135",
+    "project_id": "garden-guide-e37fa",
+    "storage_bucket": "garden-guide-e37fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237980696135:android:078a1fc67a8d3b95a93b62",
+        "android_client_info": {
+          "package_name": "com.example.gardenguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlmIPqfVpc88gQHhJ1ICNf5gahwcRNhxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
