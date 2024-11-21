@@ -9,26 +9,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class MainDash : AppCompatActivity() {
-    private lateinit var viewFlipper: ViewFlipper
-    private lateinit var nextButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
-        viewFlipper = findViewById(R.id.viewFlipper)
-        nextButton = findViewById(R.id.button)
-
-        nextButton.setOnClickListener {
-            viewFlipper.showNext()
-        }
-
-        val login: TextView = findViewById(R.id.textLogin)
-        login.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
-            startActivity(intent)
-        }
 
     }
 }

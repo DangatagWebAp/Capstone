@@ -130,9 +130,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autofillHints="Name"
                 android:hint="Username"
-                android:inputType="textPersonName"
+                android:inputType="text"
                 android:padding="8dp"
                 android:id="@+id/signupUsername"/>
 

@@ -57,7 +57,7 @@ class Signup : AppCompatActivity() {
                     startActivity(Intent(this@Signup, Login::class.java))
                     finish()
                 } else {
-                    Toast.makeText(this@Signup,"SignUp Already exists", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@Signup,"User Already exists", Toast.LENGTH_SHORT).show()
                 }
             }
 

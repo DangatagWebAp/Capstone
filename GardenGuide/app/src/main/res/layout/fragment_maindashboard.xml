@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     android:backgroundTintMode="screen"
     android:foregroundTint="#C5B7B7"
-    tools:context=".MainActivity"
+    tools:context=".MainDash"
     tools:ignore="HardcodedText">
 
     <TextView
